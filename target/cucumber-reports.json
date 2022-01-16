@@ -1,0 +1,129 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 16,
+        "name": "Como usuario existente y habilitado, quiero realizar una transferencia de fondos a la tarjeta de credito",
+        "description": "",
+        "id": "transferencia-de-fondos-entre-cuentas;como-usuario-existente-y-habilitado--quiero-realizar-una-transferencia-de-fondos-a-la-tarjeta-de-credito;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 824900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2692609400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "navego al portal de transferencias",
+            "match": {
+              "location": "AltoroMutualSteps.navigateToWeb()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 269849300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "ingreso a la pagina de login",
+            "match": {
+              "location": "AltoroMutualSteps.enterLoginPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 546350500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "me autentico correctamente con usuario valido",
+            "match": {
+              "location": "AltoroMutualSteps.loginValidUser()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 262476000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "ingreso a la opcion de transferencias",
+            "match": {
+              "location": "AltoroMutualSteps.clickTransferOption()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 432518800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "selecciono las cuentas y 10 a transferir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 25
+                }
+              ],
+              "location": "AltoroMutualSteps.enterTransferData(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 294010100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "presiono el boton de transferir",
+            "match": {
+              "location": "AltoroMutualSteps.transferMoney()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 72745100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "se observa confirmacion de la transferencia exitosa",
+            "match": {
+              "location": "AltoroMutualSteps.validateTransfer()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          }
+        ]
+      }
+    ],
+    "name": "Transferencia de fondos entre cuentas",
+    "description": "  Rule: El  usuario podra realizar la transferencia de fondos entre cuentas de forma satisfactoria",
+    "id": "transferencia-de-fondos-entre-cuentas",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/AltoroMutual.feature",
+    "tags": []
+  }
+]

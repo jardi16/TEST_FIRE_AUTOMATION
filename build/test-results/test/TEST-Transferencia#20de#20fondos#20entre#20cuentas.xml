@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Transferencia de fondos entre cuentas" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-01-16T03:31:10" hostname="LAPTOP-KQTNGMI1" time="4.717">
+  <properties/>
+  <testcase name="Como usuario existente y habilitado, quiero realizar una transferencia de fondos a la tarjeta de credito" classname="Transferencia de fondos entre cuentas" time="4.717"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 29444
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1642303872.701][WARNING]: This version of ChromeDriver has not been tested with Chrome version 97.
+Jan 15, 2022 10:31:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>
