@@ -35,7 +35,7 @@ dependencies {
     implementation group: 'com.aventstack', name: 'extentreports-cucumber4-adapter', version: '1.0.7'
 }
 
-test {
-    systemProperty "cucumber.options", System.getProperty("cucumber.options")
+// test {
+//     systemProperty "cucumber.options", System.getProperty("cucumber.options")
 
-}
+// }
